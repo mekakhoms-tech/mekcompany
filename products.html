@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The full MEK Imports-Exports product catalogue. 550+ active SKUs across 19 trusted brands and 10 categories. Filter by category and search any brand." />
+  <meta name="keywords" content="MEK, Lao PDR, Laos, import export, distribution, FMCG distributor Laos, Vientiane, Real Thai, Baby Bright, Boya, Skynlab, Jinro Soju, Pureen, Deli stationery, Suanthip" />
+  <meta name="author" content="MEK Imports-Exports Sole Co., LTD" />
+  <meta property="og:title" content="Products &middot; MEK Imports-Exports" />
+  <meta property="og:description" content="Lao PDR's leading import, export & distribution company. 3,683+ active stores across 16 of 18 provinces. 19 trusted brands." />
+  <meta property="og:image" content="./assets/logo.png" />
+  <meta property="og:url" content="https://www.meklaos.com" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#1e4d24" />
+  <title>Products &middot; MEK Imports-Exports &mdash; The full catalogue</title>
+
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./assets/style.css" />
+
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="./index.html#top" data-transition class="nav-logo" aria-label="MEK home">
+        <span class="nav-logo-mark"><img src="./assets/logo.png" alt="MEK Logo" /></span>
+        <div class="nav-logo-text">
+          MEK Imports-Exports
+          <span data-i18n="nav.tagline">The new era of diversity</span>
+        </div>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="./index.html#about" data-transition data-i18n="nav.about">About</a>
+        <a href="./index.html#performance" data-transition data-i18n="nav.performance">Performance</a>
+        <a href="./index.html#services" data-transition data-i18n="nav.services">Services</a>
+        <a href="./index.html#brands-showcase" data-transition data-i18n="nav.brands">Brands</a>
+        <a href="./products.html" class="active" data-i18n="nav.products">Products</a>
+        <a href="./gallery.html" data-transition data-i18n="nav.gallery">Gallery</a>
+        <a href="./news.html" data-transition data-i18n="nav.news">News</a>
+        <a href="./careers.html" data-transition data-i18n="nav.careers">Careers</a>
+        <a href="./index.html#coverage" data-transition data-i18n="nav.coverage">Coverage</a>
+        <a href="./index.html#contact" data-transition class="nav-cta" data-i18n="nav.partner">Partner With Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== PRODUCTS PAGE HERO ===== -->
+  <header class="products-page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="./index.html" data-transition>Home</a>
+        <span class="sep">/</span>
+        <span>Products</span>
+      </div>
+      <h1>
+        <span class="reveal-mask">Real brands.</span>
+        <span class="reveal-mask delay-2">Real shelves.</span>
+        <span class="serif"><span class="reveal-mask delay-3">Real Laos.</span></span>
+      </h1>
+      <p class="lead">A live snapshot of the active SKUs MEK distributes across Lao PDR. Browse by category, filter by brand, search any product. For pricing, packaging or wholesale availability, contact our sales team.</p>
+    </div>
+  </header>
+
+  <!-- ===== PRODUCTS GRID ===== -->
+  <section class="products" style="padding-top: 40px;">
+    <div class="container">
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-cat="all">All</button>
+        <button class="filter-btn" data-cat="food">Food</button>
+        <button class="filter-btn" data-cat="flour">Flour</button>
+        <button class="filter-btn" data-cat="beverage">Beverages</button>
+        <button class="filter-btn" data-cat="spirits">Spirits</button>
+        <button class="filter-btn" data-cat="beauty">Beauty</button>
+        <button class="filter-btn" data-cat="hair">Hair &amp; Body</button>
+        <button class="filter-btn" data-cat="oral">Oral Care</button>
+        <button class="filter-btn" data-cat="baby">Baby</button>
+        <button class="filter-btn" data-cat="home">Household</button>
+        <button class="filter-btn" data-cat="stationery">Stationery</button>
+        <div class="filter-search-wrap">
+          <span class="filter-search-icon"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
+          <input type="text" class="filter-search" placeholder="Search products or brands..." id="searchInput" />
+        </div>
+      </div>
+      <div class="product-meta" id="productMeta"></div>
+      <div class="product-grid" id="productGrid"></div>
+      <div class="more-row">
+        <button class="btn btn-outline" id="showMoreBtn">Show More Products</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PARTNER CTA ===== -->
+  <section class="tight" style="background: var(--cream-2);">
+    <div class="container">
+      <div class="products-teaser reveal" style="padding: 56px 50px;">
+        <div class="products-teaser-content">
+          <span class="eyebrow light">Stockists &amp; Brands</span>
+          <h2><span class="reveal-mask">Want these in your store?</span> <span class="serif"><span class="reveal-mask delay-2">Or have a brand to launch in Laos?</span></span></h2>
+          <p>We work with retailers across all 16 covered provinces and partner long-term with brand owners entering the Lao market.</p>
+          <a href="./index.html#contact" data-transition class="btn btn-primary">
+            Talk to Our Sales Team
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+        <div class="products-teaser-stats">
+          <div class="pt-stat"><div class="pt-stat-num">3,683+</div><div class="pt-stat-label">Active Stores</div></div>
+          <div class="pt-stat"><div class="pt-stat-num">16/18</div><div class="pt-stat-label">Provinces</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-brand-mark">
+            <div class="ico-disc"><img src="./assets/logo.png" alt="MEK" /></div>
+            <div>
+              <h4>MEK Imports-Exports</h4>
+              <p>Sole Co., LTD</p>
+            </div>
+          </div>
+          <p>Lao PDR's premier import, export &amp; distribution company. Founded in Vientiane on 4 July 2021 by Mr. Mekakhom Sihalath. The new era of diversity.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/mekcompanylimited" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/></svg>
+            </a>
+            <a href="mailto:info@meklaos.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+            <a href="tel:+856305353359" aria-label="Phone">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.33 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="./index.html#about" data-transition>About MEK</a></li>
+            <li><a href="./index.html#performance" data-transition data-i18n="nav.performance">Performance</a></li>
+            <li><a href="./index.html#roadmap" data-transition>Roadmap</a></li>
+            <li><a href="./index.html#why" data-transition>Why MEK</a></li>
+            <li><a href="./index.html#coverage" data-transition data-i18n="nav.coverage">Coverage</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Catalogue</h5>
+          <ul>
+            <li><a href="./index.html#brands-showcase" data-transition>All Brands</a></li>
+            <li><a href="./products.html" data-transition>All Products</a></li>
+            <li><a href="./index.html#contact" data-transition>Become a Stockist</a></li>
+            <li><a href="./index.html#contact" data-transition>Become a Brand Partner</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="tel:+856305353359">+856 30 535 335 9</a></li>
+            <li><a href="tel:+8562055572742">+856 20 555 72 742</a></li>
+            <li><a href="mailto:info@meklaos.com">info@meklaos.com</a></li>
+            <li><a href="mailto:sales@meklaos.com">sales@meklaos.com</a></li>
+            <li>Vientiane Capital, Lao PDR</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; <span id="year"></span> MEK Imports-Exports Sole Co., LTD. All rights reserved. Founded 4 July 2021.</div>
+        <div class="lao">ບໍລິສັດ ເມກ ນໍາເຂົ້າ-ສົ່ງອອກ ຈໍາກັດຜູ້ດຽວ</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/data.js"></script>
+  <script src="./assets/site.js" defer></script>
+  <script src="./assets/i18n.js" defer></script>
+</body>
+</html>

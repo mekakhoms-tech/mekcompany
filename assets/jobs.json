@@ -1,0 +1,123 @@
+[
+  {
+    "id": "sales-rep-vientiane",
+    "title": "Sales Representative — Vientiane Capital",
+    "title_lao": "ພະນັກງານຂາຍ — ນະຄອນຫຼວງວຽງຈັນ",
+    "department": "Sales",
+    "location": "Vientiane Capital",
+    "type": "Full-time",
+    "posted": "2026-04-15",
+    "summary": "Build and maintain MEK&rsquo;s relationships with retailers across Vientiane Capital. Drive distribution for our 19 partner brands across modern and traditional trade.",
+    "responsibilities": [
+      "Visit assigned route of retail stores on a regular schedule",
+      "Take orders, manage in-store displays, monitor competitor activity",
+      "Achieve monthly sales and distribution KPIs by brand",
+      "Build long-term relationships with shopkeepers and store managers",
+      "Submit accurate daily activity reports to your sales supervisor"
+    ],
+    "qualifications": [
+      "Lao national, age 22+",
+      "Diploma or higher in any field; sales or marketing background a plus",
+      "1+ year FMCG sales experience preferred (fresh graduates with strong ambition welcome)",
+      "Valid Lao driving licence (motorbike or car)",
+      "Strong communication in Lao; English an advantage",
+      "Honest, hard-working, willing to work outdoors"
+    ],
+    "benefits": [
+      "Competitive base salary + monthly sales commission",
+      "Performance bonuses, fuel and phone allowances",
+      "Health insurance and social security",
+      "Career growth into supervisor / area manager roles"
+    ]
+  },
+  {
+    "id": "hr-officer",
+    "title": "Human Resources Officer",
+    "title_lao": "ພະນັກງານຊັບພະຍາກອນມະນຸດ",
+    "department": "Human Resources",
+    "location": "Vientiane Capital (HQ)",
+    "type": "Full-time",
+    "posted": "2026-04-10",
+    "summary": "Support recruitment, on-boarding, payroll administration and employee engagement for MEK&rsquo;s growing team across three branches.",
+    "responsibilities": [
+      "Coordinate recruitment cycles end to end (job posts, screening, interviews, offers)",
+      "Maintain employee records, contracts and HR database",
+      "Support payroll cycle, leave records and benefits administration",
+      "Help organise training, on-boarding and team-engagement activities",
+      "Ensure compliance with Lao labour law and internal HR policies"
+    ],
+    "qualifications": [
+      "Bachelor degree in HR, Business Administration, or related",
+      "2+ years of HR experience preferred",
+      "Strong written and spoken Lao and English",
+      "Proficient in Microsoft Office (Word, Excel, PowerPoint)",
+      "Discreet, organised, professional"
+    ],
+    "benefits": [
+      "Competitive monthly salary",
+      "Performance bonus, social security, group insurance",
+      "13th-month bonus, annual leave, public holidays",
+      "Career progression within MEK Group"
+    ]
+  },
+  {
+    "id": "warehouse-supervisor",
+    "title": "Warehouse Supervisor",
+    "title_lao": "ຫົວໜ້າຄັງສິນຄ້າ",
+    "department": "Operations",
+    "location": "Vientiane Capital (HQ Warehouse)",
+    "type": "Full-time",
+    "posted": "2026-04-12",
+    "summary": "Lead the central warehouse operation: inbound receipts, stock control, picking and outbound dispatch for 550+ active SKUs across 19 brands.",
+    "responsibilities": [
+      "Plan and supervise daily warehouse operations and team of 6&ndash;10 staff",
+      "Ensure accurate stock control, FIFO and inventory cycle counts",
+      "Manage inbound shipments and outbound deliveries to all branches",
+      "Maintain warehouse safety, cleanliness and 5S standards",
+      "Report KPIs (stock accuracy, dispatch on-time, breakages) to operations head"
+    ],
+    "qualifications": [
+      "3+ years warehouse / logistics experience, 1+ year supervisory",
+      "Knowledge of FMCG warehouse practices and ERP / inventory systems",
+      "Strong leadership and people-management skills",
+      "Lao native, English a plus",
+      "Forklift licence preferred"
+    ],
+    "benefits": [
+      "Competitive salary + supervisory allowance",
+      "Performance bonus, social security, insurance",
+      "Annual leave, public holidays, 13th-month bonus",
+      "Path to operations manager role"
+    ]
+  },
+  {
+    "id": "merchandiser-pakse",
+    "title": "Merchandiser — Pakse Branch",
+    "title_lao": "ພະນັກງານຈັດຮ້ານ — ສາຂາປາກເຊ",
+    "department": "Sales",
+    "location": "Pakse / Champasak",
+    "type": "Full-time",
+    "posted": "2026-04-08",
+    "summary": "Make sure MEK&rsquo;s brands look their best on every shelf in southern Lao PDR. Manage in-store displays, promotions and POSM.",
+    "responsibilities": [
+      "Visit assigned routes of retail stores in Champasak and surrounding provinces",
+      "Set up and maintain in-store displays, promotions, POSM",
+      "Conduct in-store sampling and brand activations",
+      "Capture daily competitive intelligence on shelf, pricing and promo activity",
+      "Report to the Pakse branch sales manager"
+    ],
+    "qualifications": [
+      "Lao national based in or willing to relocate to Pakse",
+      "Diploma or higher",
+      "Friendly, energetic, well-presented",
+      "Valid Lao driving licence",
+      "Lao native, basic English a plus"
+    ],
+    "benefits": [
+      "Salary + monthly performance commission",
+      "Travel and phone allowance",
+      "Social security, insurance",
+      "Career path into senior merchandiser or sales rep roles"
+    ]
+  }
+]

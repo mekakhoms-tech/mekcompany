@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Open position at MEK Imports-Exports — see full job description, qualifications and apply online." />
+  <meta name="author" content="MEK Imports-Exports Sole Co., LTD" />
+  <meta property="og:title" content="Job Detail · MEK Imports-Exports" />
+  <meta property="og:description" content="Open position at MEK Imports-Exports — see full job description, qualifications and apply online." />
+  <meta property="og:image" content="./assets/logo.png" />
+  <meta name="theme-color" content="#1e4d24" />
+  <title>Job Detail · MEK Imports-Exports</title>
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="./index.html" data-transition class="nav-logo" aria-label="MEK home">
+        <span class="nav-logo-mark"><img src="./assets/logo.png" alt="MEK Logo" /></span>
+        <div class="nav-logo-text">
+          MEK Imports-Exports
+          <span data-i18n="nav.tagline">The new era of diversity</span>
+        </div>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="./index.html#about" data-transition data-i18n="nav.about">About</a>
+        <a href="./index.html#performance" data-transition data-i18n="nav.performance">Performance</a>
+        <a href="./index.html#services" data-transition data-i18n="nav.services">Services</a>
+        <a href="./index.html#brands-showcase" data-transition data-i18n="nav.brands">Brands</a>
+        <a href="./products.html" data-transition data-i18n="nav.products">Products</a>
+        <a href="./gallery.html" data-transition data-i18n="nav.gallery">Gallery</a>
+        <a href="./news.html" data-transition data-i18n="nav.news">News</a>
+        <a href="./careers.html" class="active" data-i18n="nav.careers">Careers</a>
+        <a href="./index.html#coverage" data-transition data-i18n="nav.coverage">Coverage</a>
+        <a href="./index.html#contact" data-transition class="nav-cta" data-i18n="nav.partner">Partner With Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-hero" id="jobHero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="./index.html" data-transition>Home</a><span class="sep">/</span>
+        <a href="./careers.html" data-transition data-i18n="nav.careers">Careers</a><span class="sep">/</span>
+        <span id="bcTitle">Loading...</span>
+      </div>
+      <div id="jobHeroContent">
+        <h1 id="jobTitle">Loading job details&hellip;</h1>
+        <div class="job-meta-row">
+          <span class="job-meta-pill" id="jobDept"></span>
+          <span class="job-meta-pill" id="jobLoc"></span>
+          <span class="job-meta-pill" id="jobType"></span>
+          <span class="job-meta-pill" id="jobPosted"></span>
+        </div>
+        <p class="lead" id="jobSummary"></p>
+        <div style="margin-top: 28px;">
+          <a href="#applyForm" class="btn btn-primary">Apply Now
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="./careers.html" data-transition class="btn btn-outline" style="margin-left: 10px;">All open roles</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="job-detail-section">
+    <div class="container">
+      <div class="job-detail-grid">
+        <div class="job-detail-content reveal">
+          <div class="job-section">
+            <h3>Responsibilities</h3>
+            <ul id="jobResponsibilities"></ul>
+          </div>
+          <div class="job-section">
+            <h3>Qualifications</h3>
+            <ul id="jobQualifications"></ul>
+          </div>
+          <div class="job-section">
+            <h3>What we offer</h3>
+            <ul id="jobBenefits"></ul>
+          </div>
+        </div>
+        <aside class="job-detail-aside reveal">
+          <div class="job-aside-card">
+            <h4>Quick facts</h4>
+            <dl class="job-facts">
+              <dt>Position</dt><dd id="jobFactTitle"></dd>
+              <dt>Department</dt><dd id="jobFactDept"></dd>
+              <dt>Location</dt><dd id="jobFactLoc"></dd>
+              <dt>Type</dt><dd id="jobFactType"></dd>
+              <dt>Posted</dt><dd id="jobFactPosted"></dd>
+            </dl>
+            <a href="#applyForm" class="btn btn-dark" style="width: 100%; margin-top: 18px;">Apply for this role</a>
+            <p class="job-aside-note">Or email your CV directly to <a href="mailto:info@meklaos.com">info@meklaos.com</a></p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="apply-section" id="applyForm">
+    <div class="container">
+      <div class="apply-grid">
+        <div class="reveal">
+          <span class="eyebrow">Apply Online</span>
+          <h2 class="section-title"><span class="reveal-mask">Submit your application</span></h2>
+          <p class="section-lead">Fill in the form below to apply for <strong id="applyForRole">this position</strong>. Attach your CV and any supporting documents. We&rsquo;ll review your application and be in touch within 1&ndash;2 weeks.</p>
+          <p class="apply-note">All information you submit is sent securely to our HR team at <strong>info@meklaos.com</strong>.</p>
+        </div>
+        <form class="contact-form reveal" id="jobApplicationForm" action="https://formsubmit.co/info@meklaos.com" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="_subject" id="formSubject" value="New job application — MEK"/>
+          <input type="hidden" name="_template" value="table"/>
+          <input type="hidden" name="_captcha" value="true"/>
+          <input type="hidden" name="_next" value="https://www.meklaos.com/thank-you.html"/>
+          <input type="hidden" name="Position" id="formPosition" value=""/>
+
+          <div class="form-title">Application Form</div>
+          <p class="form-sub">All fields marked * are required.</p>
+
+          <div class="form-section-label">Personal Information</div>
+          <div class="form-row">
+            <div class="form-group"><label>Full name (Lao) *</label><input name="Full name (Lao)" required/></div>
+            <div class="form-group"><label>Full name (English) *</label><input name="Full name (English)" required/></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Email *</label><input name="Email" type="email" required/></div>
+            <div class="form-group"><label>Phone *</label><input name="Phone" type="tel" required/></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Date of birth</label><input name="Date of birth" type="date"/></div>
+            <div class="form-group"><label>Nationality</label><input name="Nationality" value="Lao"/></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Marital status</label>
+              <select name="Marital status"><option>Single</option><option>Married</option><option>Widowed</option><option>Other</option></select>
+            </div>
+            <div class="form-group"><label>Ethnicity</label><input name="Ethnicity"/></div>
+          </div>
+          <div class="form-group"><label>Current address</label><input name="Current address" placeholder="Village, District, Province"/></div>
+          <div class="form-row">
+            <div class="form-group"><label>Hometown</label><input name="Hometown"/></div>
+            <div class="form-group"><label>ID card number</label><input name="ID card number"/></div>
+          </div>
+
+          <div class="form-section-label">Position Applied For</div>
+          <div class="form-row">
+            <div class="form-group"><label>Position *</label><input name="Position applied for" id="positionInput" required/></div>
+            <div class="form-group"><label>Expected salary (LAK / month)</label><input name="Expected salary"/></div>
+          </div>
+          <div class="form-group"><label>Earliest start date</label><input name="Earliest start date" type="date"/></div>
+
+          <div class="form-section-label">Education &amp; Experience</div>
+          <div class="form-group"><label>Highest education *</label>
+            <select name="Highest education" required>
+              <option value="">Select…</option><option>Secondary school</option><option>Vocational / Diploma</option><option>Bachelor degree</option><option>Master degree</option><option>PhD</option>
+            </select>
+          </div>
+          <div class="form-group"><label>Major / field of study</label><input name="Major"/></div>
+          <div class="form-group"><label>Most recent employer &amp; position</label><textarea name="Recent employer" rows="3" placeholder="Company, position, dates, key responsibilities"></textarea></div>
+
+          <div class="form-section-label">Languages</div>
+          <div class="form-row">
+            <div class="form-group"><label>English level</label>
+              <select name="English level"><option>Basic</option><option>Intermediate</option><option>Good</option><option>Fluent</option><option>Native</option></select>
+            </div>
+            <div class="form-group"><label>Thai level</label>
+              <select name="Thai level"><option>None</option><option>Basic</option><option>Good</option><option>Fluent</option></select>
+            </div>
+          </div>
+
+          <div class="form-section-label">Driver&rsquo;s Licence</div>
+          <div class="form-row">
+            <div class="form-group"><label>Do you have a driving licence?</label>
+              <select name="Driving licence"><option>No</option><option>Yes &mdash; motorbike</option><option>Yes &mdash; car</option><option>Yes &mdash; both</option></select>
+            </div>
+            <div class="form-group"><label>How did you hear about us?</label>
+              <select name="Source"><option>Newspaper</option><option>Social media</option><option>Referred by MEK staff</option><option>This website</option><option>Other</option></select>
+            </div>
+          </div>
+          <div class="form-group"><label>Referrer name (if referred)</label><input name="Referrer name" placeholder="Name, position at MEK, your relationship"/></div>
+
+          <div class="form-section-label">Attachments</div>
+          <div class="form-group">
+            <label>CV / Resume *</label>
+            <input type="file" name="CV" required accept=".pdf,.doc,.docx,.png,.jpg,.jpeg" />
+            <p class="form-help">PDF, DOC or DOCX. Max 10MB.</p>
+          </div>
+          <div class="form-group">
+            <label>Other attachments (optional)</label>
+            <input type="file" name="Attachments" multiple accept=".pdf,.doc,.docx,.png,.jpg,.jpeg" />
+            <p class="form-help">Cover letter, certificates, photos &mdash; any supporting docs.</p>
+          </div>
+
+          <div class="form-group" style="margin-top: 22px;">
+            <label style="display: flex; align-items: flex-start; gap: 10px; font-weight: 400; line-height: 1.5;">
+              <input type="checkbox" required style="width: auto; margin-top: 4px;"/>
+              <span>I certify that all information in this application is true. I understand MEK Imports-Exports may terminate employment without compensation if any information is found to be untrue.</span>
+            </label>
+          </div>
+
+          <button class="form-submit" type="submit">Submit Application</button>
+          <p class="apply-note" style="margin-top: 14px; text-align: center;">By submitting you agree to our processing of your application data for recruitment purposes.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-brand-mark">
+            <div class="ico-disc"><img src="./assets/logo.png" alt="MEK" /></div>
+            <div>
+              <h4>MEK Imports-Exports</h4>
+              <p>Sole Co., LTD</p>
+            </div>
+          </div>
+          <p>Lao PDR's premier import, export &amp; distribution company. Founded in Vientiane on 4 July 2021 by Mr. Mekakhom Sihalath. The new era of diversity.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/mekcompanylimited" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/></svg>
+            </a>
+            <a href="mailto:info@meklaos.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+            <a href="tel:+856305353359" aria-label="Phone">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.33 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="./index.html#about" data-transition>About MEK</a></li>
+            <li><a href="./index.html#performance" data-transition data-i18n="nav.performance">Performance</a></li>
+            <li><a href="./index.html#roadmap" data-transition>Roadmap</a></li>
+            <li><a href="./index.html#why" data-transition>Why MEK</a></li>
+            <li><a href="./index.html#coverage" data-transition data-i18n="nav.coverage">Coverage</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Catalogue</h5>
+          <ul>
+            <li><a href="./index.html#brands-showcase" data-transition>All Brands</a></li>
+            <li><a href="./index.html#products" data-transition>All Products</a></li>
+            <li><a href="./index.html#contact" data-transition>Become a Stockist</a></li>
+            <li><a href="./index.html#contact" data-transition>Become a Brand Partner</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="tel:+856305353359">+856 30 535 335 9</a></li>
+            <li><a href="tel:+8562055572742">+856 20 555 72 742</a></li>
+            <li><a href="mailto:info@meklaos.com">info@meklaos.com</a></li>
+            <li><a href="mailto:sales@meklaos.com">sales@meklaos.com</a></li>
+            <li>Vientiane Capital, Lao PDR</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; <span id="year"></span> MEK Imports-Exports Sole Co., LTD. All rights reserved. Founded 4 July 2021.</div>
+        <div class="lao">ບໍລິສັດ ເມກ ນໍາເຂົ້າ-ສົ່ງອອກ ຈໍາກັດຜູ້ດຽວ</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/data.js"></script>
+  <script src="./assets/site.js" defer></script>
+  <script src="./assets/i18n.js" defer></script>
+  <script src="./assets/job.js" defer></script>
+</body>
+</html>
